@@ -1,5 +1,14 @@
+import { data } from "./api";
+import Header from "./components/Header";
+import Profile from "./components/Profile";
+
 function App() {
-  return <div>안녕하세요</div>;
+  return (
+    <>
+      <Header />
+      <Profile />
+    </>
+  );
 }
 
 export default App;

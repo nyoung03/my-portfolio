@@ -35,6 +35,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
   font-family: 'Do Hyeon', sans-serif;
+  background-color: #dcedc8;
+  color:  #003d00;
+  padding: 10px 80px;
 }
 ol, ul {
 	list-style: none;
@@ -50,6 +53,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  color: black
 }
 `;
 
