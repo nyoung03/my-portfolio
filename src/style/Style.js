@@ -56,7 +56,7 @@ table {
 }
 a {
   text-decoration: none;
-  color: black
+  color: #003d00
 }
 `;
 

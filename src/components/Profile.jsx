@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { profileData } from "../api";
-import me from "../img/na.jpg";
-import cloud from "../img/cloud.jpg";
-import waves from "../img/waves.jpg";
+import me from "../images/na.jpg";
+import cloud from "../images/cloud.jpg";
+import waves from "../images/waves.jpg";
 
 function Profile() {
   return (
@@ -36,6 +36,9 @@ const Wrapper = styled.div`
 `;
 
 const Text = styled.div`
+  @media (max-width: 1192px) {
+    width: 100%;
+  }
   width: 40%;
   text-align: center;
 
@@ -60,6 +63,11 @@ const Stack = styled.ul`
 `;
 
 const Photo = styled.div`
+  @media (max-width: 1192px) {
+    img {
+      display: none;
+    }
+  }
   position: relative;
 
   img {
