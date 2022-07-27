@@ -6,7 +6,7 @@ import waves from "../images/waves.jpg";
 
 function Profile() {
   return (
-    <Wrapper>
+    <Wrapper id="1">
       <Text>
         <div>{profileData.motto}</div>
         <div>지은영입니다.</div>
@@ -33,6 +33,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 30px;
 `;
 
 const Text = styled.div`

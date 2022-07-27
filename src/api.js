@@ -21,9 +21,21 @@ export const data = [
     stack: ["Javascript"],
     hompage: "https://nyoung03.github.io/ToDoList_JS/",
     notion: "",
+    github: "https://github.com/nyoung03/ToDoList_JS",
     explanation:
       "localstorage를 사용한 todoList(추가, 삭제)와 사용자 정보 기억, 날씨 api를 사용한 오늘의 날씨, 랜덤 이미지와 글귀, 날짜와 시간",
     photo: "todoList.png",
     id: 2,
+  },
+  {
+    title: "My Portfolio",
+    stack: ["React"],
+    hompage: "",
+    notion: "",
+    github: "",
+    explanation:
+      "portfolio 리스트 나열과 react-scroll를 이용한 스크롤 이동, 간단한 반응형 구현",
+    photo: "myportfolio.png",
+    id: 3,
   },
 ];

@@ -2,9 +2,8 @@ import styled from "styled-components";
 import { data } from "../api";
 
 function ProjectList() {
-  console.log(window.innerWidth);
   return (
-    <Wrapper>
+    <Wrapper id="2">
       <Title>Project</Title>
       {data.map((i) => (
         <Box key={i.id}>
@@ -18,23 +17,38 @@ function ProjectList() {
               ))}
             </Stack>
             <Text>주요 기능 : {i.explanation}</Text>
-            <Pages>
-              <li>
-                <a href={`${i.hompage}`} target="_blank" rel="noreferrer">
-                  view
-                </a>
-              </li>
-              <li>
-                <a href={`${i.notion}`} target="_blank" rel="noreferrer">
-                  notion
-                </a>
-              </li>
-              <li>
-                <a href={`${i.github}`} target="_blank" rel="noreferrer">
-                  github
-                </a>
-              </li>
-            </Pages>
+            {i.notion !== "" ? (
+              <Pages>
+                <li>
+                  <a href={`${i.hompage}`} target="_blank" rel="noreferrer">
+                    view
+                  </a>
+                </li>
+                <li>
+                  <a href={`${i.notion}`} target="_blank" rel="noreferrer">
+                    notion
+                  </a>
+                </li>
+                <li>
+                  <a href={`${i.github}`} target="_blank" rel="noreferrer">
+                    github
+                  </a>
+                </li>
+              </Pages>
+            ) : (
+              <Pages>
+                <li>
+                  <a href={`${i.hompage}`} target="_blank" rel="noreferrer">
+                    view
+                  </a>
+                </li>
+                <li>
+                  <a href={`${i.github}`} target="_blank" rel="noreferrer">
+                    github
+                  </a>
+                </li>
+              </Pages>
+            )}
           </Col>
         </Box>
       ))}
@@ -51,7 +65,7 @@ const Wrapper = styled.div`
 
 const Title = styled.h3`
   font-size: 40px;
-  padding-top: 30px;
+  padding-top: 60px;
 `;
 
 const Box = styled.div`
@@ -89,7 +103,7 @@ const Col = styled.div`
 
 const ProjectTitle = styled.div`
   font-size: 30px;
-  padding: 5px 0;
+  padding: 10px 0;
 `;
 
 const Stack = styled.ul`
