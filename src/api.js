@@ -30,9 +30,10 @@ export const data = [
   {
     title: "My Portfolio",
     stack: ["React"],
-    hompage: "",
-    notion: "",
-    github: "",
+    hompage: "https://nyoung03.github.io/my-portfolio/",
+    notion:
+      "https://fuzzy-energy-8aa.notion.site/my-portfolio-1a9db8bd875c47afbf6afda06e6b67ef",
+    github: "https://github.com/nyoung03/my-portfolio",
     explanation:
       "portfolio 리스트 나열과 react-scroll를 이용한 스크롤 이동, 간단한 반응형 구현",
     photo: "myportfolio.png",
