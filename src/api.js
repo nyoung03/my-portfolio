@@ -28,6 +28,17 @@ export const data = [
     id: 2,
   },
   {
+    title: "Hacker News clone",
+    stack: ["Javascript, Tailwind CSS"],
+    hompage: "https://nyoung03.github.io/Hacker_News_Js_clone/",
+    notion:
+      "https://fuzzy-energy-8aa.notion.site/Hacker-News-JS-f9aa75b99c4d4c74bc60fe3bd756d4bc",
+    github: "https://github.com/nyoung03/Hacker_News_Js_clone",
+    explanation: "Hacker News api를 사용하여 뉴스를 나열하고 페이지 구분 구현",
+    photo: "hackerNews.png",
+    id: 3,
+  },
+  {
     title: "My Portfolio",
     stack: ["React"],
     hompage: "https://nyoung03.github.io/my-portfolio/",
@@ -37,6 +48,6 @@ export const data = [
     explanation:
       "portfolio 리스트 나열과 react-scroll를 이용한 스크롤 이동, 간단한 반응형 구현",
     photo: "myportfolio.png",
-    id: 3,
+    id: 4,
   },
 ];
