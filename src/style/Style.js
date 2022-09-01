@@ -37,7 +37,6 @@ body {
   font-family: 'Do Hyeon', sans-serif;
   background-color: #dcedc8;
   color:  #003d00;
-  padding: 10px 80px;
 }
 ol, ul {
 	list-style: none;
