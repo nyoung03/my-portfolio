@@ -7,7 +7,7 @@ import sassIcon from "../icons/sass.png";
 import reactIcon from "../icons/react.png";
 
 const Wrapper = styled.div`
-  width: 80%;
+  width: 50%;
   margin: 0 auto 100px auto;
   background-color: white;
   padding: 15px 20px;
@@ -18,13 +18,14 @@ const Title = styled.h3`
   font-size: 40px;
 `;
 
-const Contain = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+const SubTitle = styled.h3`
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
 `;
 
 const StackIcons = styled.div`
-  /* background-color: red; */
   height: 300px;
   text-align: center;
   position: relative;
@@ -32,7 +33,6 @@ const StackIcons = styled.div`
 
 const Icon = styled.img`
   width: 60px;
-  /* background-color: rebeccapurple; */
   position: absolute;
   top: ${(props) => props.top};
   bottom: ${(props) => props.bottom};
@@ -44,31 +44,19 @@ const Icon = styled.img`
   }
 `;
 
-const Text = styled.ul``;
-
 function Stack() {
   return (
     <Wrapper id="2">
       <Title>Stack</Title>
-      <Contain>
-        <StackIcons>
-          <Icon src={htmlIcon} left="200px" top="10px" />
-          <Icon src={cssIcon} top="10px" />
-          <Icon src={jsIcon} left="140px" top="100px" />
-          <Icon src={tsIcon} right="185px" top="100px" />
-          <Icon src={reactIcon} left="200px" bottom="50px" />
-          <Icon src={sassIcon} bottom="50px" />
-        </StackIcons>
-        <Text>
-          <li>hihiih</li>
-          <li>hihiih</li>
-          <li>hihiih</li>
-          <li>hihiih</li>
-          <li>hihiih</li>
-          <li>hihiih</li>
-          <li>hihiih</li>
-        </Text>
-      </Contain>
+      <SubTitle>Front</SubTitle>
+      <StackIcons>
+        <Icon src={htmlIcon} left="290px" top="10px" />
+        <Icon src={cssIcon} right="290px" top="10px" />
+        <Icon src={jsIcon} left="240px" top="100px" />
+        <Icon src={tsIcon} right="250px" top="100px" />
+        <Icon src={reactIcon} left="290px" bottom="40px" />
+        <Icon src={sassIcon} right="290px" bottom="40px" />
+      </StackIcons>
     </Wrapper>
   );
 }
