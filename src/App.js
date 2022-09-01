@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import ProjectList from "./components/ProjectList";
+import Source from "./components/Source";
 import Stack from "./components/Stack";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Profile />
       <Stack />
       <ProjectList />
+      <Source />
     </>
   );
 }
