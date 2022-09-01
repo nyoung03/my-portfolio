@@ -1,8 +1,3 @@
-export const profileData = {
-  motto: "매일의 성장을 꿈꾸는 신입 프론트엔드 개발자",
-  stack: ["Html", "Css", "Javascript", "Typescript", "React"],
-};
-
 export const data = [
   {
     title: "Netflix clone",
