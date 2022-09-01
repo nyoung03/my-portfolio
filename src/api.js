@@ -12,6 +12,17 @@ export const data = [
     id: 1,
   },
   {
+    title: "Hogwarts Students",
+    stack: ["React Js", "Styled-Components", "React-router-dom"],
+    hompage: "https://nyoung03.github.io/hogwarts-students/",
+    notion:
+      "https://fuzzy-energy-8aa.notion.site/Hogwarts-students-dd0c052388e945ca893b2c2c30658e0d",
+    github: "https://github.com/nyoung03/hogwarts-students",
+    explanation: "",
+    photo: "hogwarts.png",
+    id: 2,
+  },
+  {
     title: "Momentum",
     stack: ["Javascript"],
     hompage: "https://nyoung03.github.io/ToDoList_JS/",
@@ -20,7 +31,7 @@ export const data = [
     explanation:
       "localstorage를 사용한 todoList(추가, 삭제)와 사용자 정보 기억, 날씨 api를 사용한 오늘의 날씨, 랜덤 이미지와 글귀, 날짜와 시간",
     photo: "todoList.png",
-    id: 2,
+    id: 3,
   },
   {
     title: "Hacker News clone",
@@ -31,7 +42,7 @@ export const data = [
     github: "https://github.com/nyoung03/Hacker_News_Js_clone",
     explanation: "Hacker News api를 사용하여 뉴스를 나열하고 페이지 구분 구현",
     photo: "hackerNews.png",
-    id: 3,
+    id: 4,
   },
   {
     title: "My Portfolio",
@@ -43,6 +54,6 @@ export const data = [
     explanation:
       "portfolio 리스트 나열과 react-scroll를 이용한 스크롤 이동, 간단한 반응형 구현",
     photo: "myportfolio.png",
-    id: 4,
+    id: 5,
   },
 ];

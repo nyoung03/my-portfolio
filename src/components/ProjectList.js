@@ -75,6 +75,10 @@ const Box = styled.div`
   display: flex;
   font-size: 20px;
   margin: 50px 0;
+
+  &:hover {
+    background-color: #519657;
+  }
 `;
 
 const Photo = styled.img`
