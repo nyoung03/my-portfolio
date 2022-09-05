@@ -7,40 +7,27 @@ import tree4 from "../icons/tree4.png";
 import tree5 from "../icons/tree5.png";
 import cloud1 from "../icons/cloud.png";
 import cloud2 from "../icons/cloud2.png";
-import { useEffect, useState, useRef } from "react";
+import cloud from "../images/cloud.jpg";
 
 function Profile() {
-  const [run, setRun] = useState(0);
-  const runRef = useRef(0);
-
-  // useEffect(() => {
-  //   const timer = setInterval(() => {
-  //     runRef.current += 3;
-  //     setRun(runRef.current);
-  //     console.log("안", run);
-  //     if (runRef.current === 25) {
-  //       return clearInterval(timer);
-  //     }
-  //   }, 1000);
-  // }, []);
-  // console.log("밖", run);
+  console.log(window.innerWidth);
   return (
     <Wrapper id="1">
       <Text>
-        <div>매일의 성장을 꿈꾸는</div>
+        <div>"매일의 성장을 꿈꾸는</div>
         <div>신입 프론트엔드 개발자</div>
-        <div>지은영입니다.</div>
+        <div>지은영입니다."</div>
       </Text>
       <Paint>
         <Mountain />
         <SmallMountain />
         <Tree src={tree5} top="430px" left="-30px" />
         <Tree src={tree1} top="420px" left="50px" />
-        <Tree src={tree3} top="420px" right="50px" />
-        <Tree src={tree2} top="430px" right="120px" />
+        <Tree src={tree3} top="420px" right="110px" />
+        <Tree src={tree2} top="415px" right="50px" />
         <Tree src={tree4} top="415px" left="300px" />
         <Cloud src={cloud1} top="130px" left="120px" />
-        <Cloud src={cloud2} top="200px" right="120px" />
+        <Cloud src={cloud2} top="180px" right="120px" />
         <Woman src={running} />
       </Paint>
     </Wrapper>
@@ -53,14 +40,15 @@ const Wrapper = styled.div`
   height: 100vh;
   display: grid;
   grid-template-columns: 1.5fr 2fr;
+
+  @media (max-width: 978px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const Text = styled.div`
-  @media (max-width: 1192px) {
-    width: 100%;
-  }
   text-align: center;
-  width: 60%;
   height: 20%;
   margin: auto;
 
@@ -72,6 +60,10 @@ const Text = styled.div`
 
 const Paint = styled.div`
   position: relative;
+
+  @media (max-width: 978px) {
+    position: static;
+  }
 `;
 
 const Mountain = styled.div`
@@ -81,6 +73,10 @@ const Mountain = styled.div`
   border-left: 100px solid transparent;
   border-right: 300px solid transparent;
   margin-top: 200px;
+
+  @media (max-width: 978px) {
+    display: none;
+  }
 `;
 
 const SmallMountain = styled.div`
@@ -92,6 +88,10 @@ const SmallMountain = styled.div`
   position: absolute;
   top: 280px;
   left: 130px;
+
+  @media (max-width: 978px) {
+    display: none;
+  }
 `;
 
 const Tree = styled.img`
@@ -100,6 +100,10 @@ const Tree = styled.img`
   top: ${(props) => props.top};
   left: ${(props) => props.left};
   right: ${(props) => props.right};
+
+  @media (max-width: 978px) {
+    display: none;
+  }
 `;
 
 const bounce = keyframes`
@@ -139,4 +143,8 @@ const Woman = styled.img`
   position: absolute;
   width: 60px;
   right: 0px;
+
+  @media (max-width: 978px) {
+    display: none;
+  }
 `;
