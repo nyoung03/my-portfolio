@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   width: 50%;
   margin: 0 auto 100px auto;
   background-color: white;
-  padding: 15px 20px;
+  padding: 25px 30px;
   border-radius: 15px;
 `;
 
@@ -26,21 +26,23 @@ const SubTitle = styled.h3`
 `;
 
 const StackIcons = styled.div`
-  height: 300px;
   text-align: center;
-  position: relative;
 `;
 
 const Icon = styled.img`
   width: 60px;
-  position: absolute;
-  top: ${(props) => props.top};
-  bottom: ${(props) => props.bottom};
-  left: ${(props) => props.left};
-  right: ${(props) => props.right};
+  padding: 10px;
 
   &:hover {
-    width: 65px;
+    width: 55px;
+  }
+
+  @media (max-width: 978px) {
+    width: 40px;
+
+    &:hover {
+      width: 36px;
+    }
   }
 `;
 
@@ -50,12 +52,12 @@ function Stack() {
       <Title>Stack</Title>
       <SubTitle>Front</SubTitle>
       <StackIcons>
-        <Icon src={htmlIcon} left="290px" top="10px" />
-        <Icon src={cssIcon} right="290px" top="10px" />
-        <Icon src={jsIcon} left="240px" top="100px" />
-        <Icon src={tsIcon} right="250px" top="100px" />
-        <Icon src={reactIcon} left="290px" bottom="40px" />
-        <Icon src={sassIcon} right="290px" bottom="40px" />
+        <Icon src={htmlIcon} />
+        <Icon src={cssIcon} />
+        <Icon src={jsIcon} />
+        <Icon src={tsIcon} />
+        <Icon src={reactIcon} />
+        <Icon src={sassIcon} />
       </StackIcons>
     </Wrapper>
   );

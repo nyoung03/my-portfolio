@@ -11,27 +11,27 @@ function ProjectList() {
           <Col>
             <ProjectTitle>{i.title}</ProjectTitle>
             <Stack>
-              <div>사용 기술 :</div>
+              <div>Stack :</div>
               {i.stack.map((stack) => (
-                <li key={stack}>{stack}</li>
+                <li key={stack}>{stack},</li>
               ))}
             </Stack>
-            <Text>주요 기능 : {i.explanation}</Text>
+            <Text>Review : {i.explanation}</Text>
             {i.notion !== "" ? (
               <Pages>
                 <li>
                   <a href={`${i.hompage}`} target="_blank" rel="noreferrer">
-                    view
+                    View
                   </a>
                 </li>
                 <li>
                   <a href={`${i.notion}`} target="_blank" rel="noreferrer">
-                    notion
+                    Notion
                   </a>
                 </li>
                 <li>
                   <a href={`${i.github}`} target="_blank" rel="noreferrer">
-                    github
+                    Github
                   </a>
                 </li>
               </Pages>
@@ -39,12 +39,12 @@ function ProjectList() {
               <Pages>
                 <li>
                   <a href={`${i.hompage}`} target="_blank" rel="noreferrer">
-                    view
+                    View
                   </a>
                 </li>
                 <li>
                   <a href={`${i.github}`} target="_blank" rel="noreferrer">
-                    github
+                    Github
                   </a>
                 </li>
               </Pages>
@@ -61,11 +61,13 @@ export default ProjectList;
 const Wrapper = styled.div`
   width: 80%;
   margin: 0 auto;
+  font-family: "Nanum Gothic", sans-serif;
 `;
 
 const Title = styled.h3`
   font-size: 40px;
   padding-top: 15px;
+  font-family: "Do Hyeon", sans-serif;
 `;
 
 const Box = styled.div`
@@ -89,6 +91,7 @@ const Photo = styled.img`
   width: 40%;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
+  margin: auto 0;
 `;
 
 const Col = styled.div`
@@ -108,6 +111,7 @@ const Col = styled.div`
 const ProjectTitle = styled.div`
   font-size: 30px;
   padding: 10px 0;
+  font-weight: bold;
 `;
 
 const Stack = styled.ul`
@@ -121,6 +125,7 @@ const Stack = styled.ul`
 
 const Text = styled.div`
   padding: 5px 0;
+  line-height: 30px;
 `;
 
 const Pages = styled.ul`
@@ -130,6 +135,12 @@ const Pages = styled.ul`
   padding-top: 40px;
 
   li {
-    padding: 0 10px;
+    margin: 0 10px;
+    padding: 5px 10px;
+
+    &:hover {
+      background-color: #a5d6a7;
+      border-radius: 10px;
+    }
   }
 `;
