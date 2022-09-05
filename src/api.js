@@ -7,7 +7,7 @@ export const data = [
       "https://fuzzy-energy-8aa.notion.site/Nomflix-5ee4466f893149a8ac51b1f4460f4733",
     github: "https://github.com/nyoung03/nomflix-react/tree/master",
     explanation:
-      "localstorage를 사용한 회원가입과 로그인, 카테고리별 영화 또는 방송 슬라이드, 상세 정보 페이지, 검색 기능",
+      "본 프로젝트는 React와 Typescript를 사용하여, 영화와 방송 프로그램 리스트, 검색, 각 콘텐츠의 상세정보 페이지로 이루어져 있습니다. TMDB에 제공된 Movie, Tv, Detail Api를 사용하여 카테고리에 맞는 리스트를 볼 수 있으며 간단한 키워드로 검색을 할 수 있게 구현했습니다.",
     photo: "netflix.png",
     id: 1,
   },
@@ -18,7 +18,8 @@ export const data = [
     notion:
       "https://fuzzy-energy-8aa.notion.site/Hogwarts-students-dd0c052388e945ca893b2c2c30658e0d",
     github: "https://github.com/nyoung03/hogwarts-students",
-    explanation: "",
+    explanation:
+      "본 프로젝트는 React를 사용하여, 영화 해리포터 속 학교인 호그와트 학생들의 명단을 구현했습니다. 전체 학생을 보여주는 탭과 기숙사별 학생들을 보여주는 탭을 제작하였습니다. 전체 학생 리스트는 Pagnation으로 구현하였습니다. 또한 메인 화면에는 Crousel을 구현하여 학교의 풍경을 볼 수 있습니다. ",
     photo: "hogwarts.png",
     id: 2,
   },
@@ -29,7 +30,7 @@ export const data = [
     notion: "",
     github: "https://github.com/nyoung03/ToDoList_JS",
     explanation:
-      "localstorage를 사용한 todoList(추가, 삭제)와 사용자 정보 기억, 날씨 api를 사용한 오늘의 날씨, 랜덤 이미지와 글귀, 날짜와 시간",
+      "본 프로젝트는 Javascript를 사용하여, 간단한 로그인과 ToDoList, 위치에 따른 날씨, 랜덤 이미지와 글귀로 이루어져 있습니다. ",
     photo: "todoList.png",
     id: 3,
   },
@@ -40,20 +41,9 @@ export const data = [
     notion:
       "https://fuzzy-energy-8aa.notion.site/Hacker-News-JS-f9aa75b99c4d4c74bc60fe3bd756d4bc",
     github: "https://github.com/nyoung03/Hacker_News_Js_clone",
-    explanation: "Hacker News api를 사용하여 뉴스를 나열하고 페이지 구분 구현",
+    explanation:
+      "본 프로젝트는 해커 뉴스를 클론하여 제작하였습니다. 페이지 당 10개의 게시물을 나타나게 하였으며 본 게시물은 색상을 다르게 하여 구분하였습니다.",
     photo: "hackerNews.png",
     id: 4,
-  },
-  {
-    title: "My Portfolio",
-    stack: ["React"],
-    hompage: "https://nyoung03.github.io/my-portfolio/",
-    notion:
-      "https://fuzzy-energy-8aa.notion.site/my-portfolio-1a9db8bd875c47afbf6afda06e6b67ef",
-    github: "https://github.com/nyoung03/my-portfolio",
-    explanation:
-      "portfolio 리스트 나열과 react-scroll를 이용한 스크롤 이동, 간단한 반응형 구현",
-    photo: "myportfolio.png",
-    id: 5,
   },
 ];
