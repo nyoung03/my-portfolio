@@ -2,6 +2,8 @@
 
 저의 소개와 구현했던 프로젝트들을 담은 포트폴리오 사이트입니다.
 
+<a href="https://nyoung03.github.io/my-portfolio/">보러가기</
+
 ### 스텍
 - react
 - react-scroll
