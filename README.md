@@ -25,3 +25,6 @@
 
 ### 메인화면
 <img src="https://user-images.githubusercontent.com/87607036/188555822-566f74c8-8d1a-47ff-abbc-692dcf1bb7de.gif" />
+
+### 반응형
+<img src="https://user-images.githubusercontent.com/87607036/188556648-200f8079-99fa-4e47-8e3c-dd841320aebf.gif" />
