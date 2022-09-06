@@ -20,3 +20,8 @@
 ### 노션 정리
 프로젝트를 구현하며 마주한 문제를 고민한 내용과 해결 방법을 작성하였습니다.
 <a href="https://fuzzy-energy-8aa.notion.site/my-portfolio-1a9db8bd875c47afbf6afda06e6b67ef">노션 정리</a>
+
+<hr />
+
+### 메인화면
+<img src="https://user-images.githubusercontent.com/87607036/188555822-566f74c8-8d1a-47ff-abbc-692dcf1bb7de.gif" />
