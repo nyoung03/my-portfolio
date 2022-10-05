@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { data } from "../api";
+import { data } from "../data";
 
 function ProjectList() {
   return (

@@ -24,6 +24,17 @@ export const data = [
     id: 2,
   },
   {
+    title: "Emotion Diary",
+    stack: ["React Js", "React-router-dom"],
+    hompage: "https://nyoung03-emotion-diary.web.app/",
+    github: "https://github.com/nyoung03/emotion-diary",
+    notion: "",
+    explanation:
+      "본 프로젝트는 React를 사용하여, 일기 작성, 수정, 삭제 기능으로 이루어져 있습니다. 일기 리스트들은 월별, 카테고리별로 정렬할 수 있습니다.",
+    photo: "emotionDiary.png",
+    id: 3,
+  },
+  {
     title: "Momentum",
     stack: ["Javascript"],
     hompage: "https://nyoung03.github.io/ToDoList_JS/",
@@ -32,7 +43,7 @@ export const data = [
     explanation:
       "본 프로젝트는 Javascript를 사용하여, 간단한 로그인과 ToDoList, 위치에 따른 날씨, 랜덤 이미지와 글귀로 이루어져 있습니다. ",
     photo: "todoList.png",
-    id: 3,
+    id: 4,
   },
   {
     title: "Hacker News clone",
@@ -44,6 +55,6 @@ export const data = [
     explanation:
       "본 프로젝트는 해커 뉴스를 클론하여 제작하였습니다. 페이지 당 10개의 게시물을 나타나게 하였으며 본 게시물은 색상을 다르게 하여 구분하였습니다.",
     photo: "hackerNews.png",
-    id: 4,
+    id: 5,
   },
 ];

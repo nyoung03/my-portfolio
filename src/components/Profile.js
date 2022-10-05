@@ -7,7 +7,6 @@ import tree4 from "../icons/tree4.png";
 import tree5 from "../icons/tree5.png";
 import cloud1 from "../icons/cloud.png";
 import cloud2 from "../icons/cloud2.png";
-import cloud from "../images/cloud.jpg";
 
 function Profile() {
   console.log(window.innerWidth);
