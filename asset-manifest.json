@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.js": "/my-portfolio/static/js/main.e25aa34f.js",
+    "main.js": "/my-portfolio/static/js/main.9ee192bc.js",
     "static/media/netflix.png": "/my-portfolio/static/media/netflix.b96702893a9134b2810e.png",
     "static/media/hogwarts.png": "/my-portfolio/static/media/hogwarts.3af94dc8f20fe28a0ccb.png",
     "static/media/todoList.png": "/my-portfolio/static/media/todoList.e789b2907bf5b8f5685e.png",
     "static/media/hackerNews.png": "/my-portfolio/static/media/hackerNews.964421f4d88f8aac210e.png",
     "static/media/myportfolio.png": "/my-portfolio/static/media/myportfolio.ddd5fa88471cb0ef3597.png",
     "static/media/cloud.jpg": "/my-portfolio/static/media/cloud.2ec4e1a003d46482271e.jpg",
+    "static/media/emotionDiary.png": "/my-portfolio/static/media/emotionDiary.d4ec8beef3de0810a89d.png",
     "static/media/sass.png": "/my-portfolio/static/media/sass.c5da83bb9ff45b84e0e7.png",
     "static/media/react.png": "/my-portfolio/static/media/react.588ce830e2ea8ca431cd.png",
     "static/media/running.png": "/my-portfolio/static/media/running.8c1ba7ff97b3a4775def.png",
@@ -21,9 +22,9 @@
     "static/media/typescript.png": "/my-portfolio/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/js.png": "/my-portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/my-portfolio/index.html",
-    "main.e25aa34f.js.map": "/my-portfolio/static/js/main.e25aa34f.js.map"
+    "main.9ee192bc.js.map": "/my-portfolio/static/js/main.9ee192bc.js.map"
   },
   "entrypoints": [
-    "static/js/main.e25aa34f.js"
+    "static/js/main.9ee192bc.js"
   ]
 }
